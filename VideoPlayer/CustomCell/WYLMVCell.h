@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@class WYLMVModel;
 
 @interface WYLMVCell : UICollectionViewCell
-
+@property (nonatomic,strong)WYLMVModel *model;
 @end

@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface WYLDOTA2Model : NSObject
-
+@property (nonatomic,copy)NSString *name;
+@property (nonatomic,copy)NSString *iconURL;
+@property (nonatomic,copy)NSString *contentURL;
 @end

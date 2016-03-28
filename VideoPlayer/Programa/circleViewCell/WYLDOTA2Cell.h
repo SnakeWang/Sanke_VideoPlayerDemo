@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WYLDOTA2Model.h"
 
 @interface WYLDOTA2Cell : UICollectionViewCell
-
+@property (nonatomic,strong)WYLDOTA2Model *model;
 @end

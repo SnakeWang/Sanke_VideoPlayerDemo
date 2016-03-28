@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <AVFoundation/AVFoundation.h>
 @interface WYLPlayerView : UIView
-
+@property (nonatomic,strong)AVPlayer *player;
 @end

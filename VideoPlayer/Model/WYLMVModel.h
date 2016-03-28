@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface WYLMVModel : NSObject
-
+@property (nonatomic,copy)NSString *MVURL;
+@property (nonatomic,copy)NSString *MVName;
+@property (nonatomic,copy)NSString *MVImage;
 @end

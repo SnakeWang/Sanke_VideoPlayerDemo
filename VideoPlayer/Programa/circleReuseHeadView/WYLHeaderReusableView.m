@@ -8,6 +8,11 @@
 
 #import "WYLHeaderReusableView.h"
 
+@interface WYLHeaderReusableView ()
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+
+@end
+
 @implementation WYLHeaderReusableView
 
 - (void)awakeFromNib {

@@ -1,14 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   MVSource.plist
-   VideoPlayer
-
-   Created by Snake on 16/3/11.
-   Copyright (c) 2016年 Snake. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<array>
+	<dict>
+		<key>MVURL</key>
+		<string></string>
+		<key>MVName</key>
+		<string>T-ARA</string>
+		<key>MVImage</key>
+		<string>http://vpic.video.qq.com/72683967/e0017oplilr_160_90_3.jpg</string>
+	</dict>
+	<dict>
+		<key>MVURL</key>
+		<string>http://125.88.156.47/fcs165.56.com/flvdownload/8/7/14076679835hd.flv.mp4?t=J7w3FwbC7Wyrz4WpRzxFxw&amp;r=50940&amp;e=1458354673&amp;v=1&amp;s=1&amp;tt=214&amp;sz=7919914&amp;vid=122182953</string>
+		<key>MVName</key>
+		<string>AILee</string>
+		<key>MVImage</key>
+		<string>http://vpic.video.qq.com/68523925/b0173mr97ip_160_90_3.jpg</string>
+	</dict>
+	<dict>
+		<key>MVURL</key>
+		<string>http://121.12.89.136/sohu/s26h23eab6/xdispatch/sohu.vod.qingcdn.com/47/207/W9AOsUZjogVRXPmaw464OF.mp4?key=ezzlnCU-330gM9dmjs9y9XTKlghGNc9z&amp;n=1&amp;a=1803&amp;cip=219.134.215.57&amp;prod=app</string>
+		<key>MVName</key>
+		<string>一次就好</string>
+		<key>MVImage</key>
+		<string>http://photocdn.sohu.com/20151016/vrs1807118_Nj746_pic23.jpg</string>
+	</dict>
+	<dict>
+		<key>MVURL</key>
+		<string></string>
+		<key>MVName</key>
+		<string>茜拉</string>
+		<key>MVImage</key>
+		<string>http://www.dota2.com.cn/images/heroes/tiny_full.png</string>
+	</dict>
+	<dict>
+		<key>MVURL</key>
+		<string>http://videohy.tc.qq.com/vlive.qqvideo.tc.qq.com/f01605ctjri.mp4?type=mp4&amp;fmt=mp4&amp;vkey=7A90E12749EBAF23938933B8550A12573F8DFDA2B058C3034D532A6DAFFA4360D6C9DE4C5A587705B5A7CEF0465A66F89E9FFE6E63262171282A9B1C093FA37DDCDB4A7D3FC1EB00CEF05B4B9E40F91F8523A59B5BD544F2&amp;ocid=246095788</string>
+		<key>MVName</key>
+		<string>T-ARA</string>
+		<key>MVImage</key>
+		<string>http://www.dota2.com.cn/images/heroes/earthshaker_full.png</string>
+	</dict>
+	<dict>
+		<key>MVURL</key>
+		<string>http://219.135.57.9/vlive.qqvideo.tc.qq.com/l001495smin.mp4?type=mp4&amp;fmt=mp4&amp;vkey=960CD564D7EC470352DA5CF11D193934272E54A2652E1C67ACD77F09F387089BFE3AA74C5D1ED0E128AB6B44368AB0B330490EEBBFE1AECF46E6B68E5CAA9AACAACDC55EEF02D3058BAD93571ADFF7C2EE351BB44A9C8AB9&amp;locid=c83cad09-2930-47b6-b6fa-9270cd743544&amp;size=13254308&amp;ocid=246095788</string>
+		<key>MVName</key>
+		<string>金泫雅</string>
+		<key>MVImage</key>
+		<string>http://www.dota2.com.cn/images/heroes/earthshaker_full.png</string>
+	</dict>
+</array>
 </plist>

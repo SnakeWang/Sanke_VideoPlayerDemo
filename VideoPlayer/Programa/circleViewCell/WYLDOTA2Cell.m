@@ -17,7 +17,17 @@
 @implementation WYLDOTA2Cell
 
 - (void)awakeFromNib {
-    // Initialization code
+//    self.heroImageView.layer.backgroundColor = [UIColor yellowColor].CGColor;
+    self.heroImageView.layer.cornerRadius = 13.0f;
+    self.heroImageView.clipsToBounds = YES;
+    
 }
+- (void)setModel:(WYLDOTA2Model *)model
+{
+    if (_model != model) {
+        _model = model;
+        [self.heroImageView sd_setImageWithURL:[NSURL URLWithString:_model.iconURL] placeholderImage:nil];
+    }
 
+}
 @end

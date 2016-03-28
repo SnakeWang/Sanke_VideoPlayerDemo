@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "WYLMVModel.h"
 @interface WYLPlayerViewController : UIViewController
-
+- (instancetype)initWithSourceModel:(WYLMVModel *)model;
 @end

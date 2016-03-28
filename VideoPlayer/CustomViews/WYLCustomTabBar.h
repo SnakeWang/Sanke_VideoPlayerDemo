@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WYLCustomTabBar : UITabBar
 
+@protocol WYLCustomTabBarDelegate <NSObject>
+
+- (void)tabBarDidClickPlusButton:(UIButton *)Button;
+
+@end
+
+@interface WYLCustomTabBar : UITabBar
+@property (nonatomic,weak)id<WYLCustomTabBarDelegate>customTabBarDelegate;
 @end

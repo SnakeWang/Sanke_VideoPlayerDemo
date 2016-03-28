@@ -8,6 +8,17 @@
 
 #import "WYLCardStyleViewController.h"
 
+@interface WYLCardStyleViewController ()
+
+@end
+
 @implementation WYLCardStyleViewController
 
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    
+}
 @end

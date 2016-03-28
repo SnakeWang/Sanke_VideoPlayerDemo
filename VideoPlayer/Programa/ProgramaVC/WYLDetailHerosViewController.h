@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface WYLDetailHerosViewController : UIViewController
-
+@property (nonatomic,copy)NSString *sourceURL;
 @end

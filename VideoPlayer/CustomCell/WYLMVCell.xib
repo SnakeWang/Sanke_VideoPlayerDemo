@@ -1,18 +1,72 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15A2301" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WYLMVCell">
-            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <rect key="frame" x="0.0" y="0.0" width="140" height="100"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <rect key="frame" x="0.0" y="0.0" width="140" height="100"/>
+                <subviews>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aGl-zx-Rna" userLabel="ImageView">
+                        <rect key="frame" x="0.0" y="0.0" width="140" height="100"/>
+                        <color key="backgroundColor" red="1" green="0.57799177310000005" blue="0.42144315669999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="movieCell" image="play" translatesAutoresizingMaskIntoConstraints="NO" id="ztE-T5-XVI" userLabel="playView">
+                        <rect key="frame" x="45" y="25" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="7um-VW-wKW"/>
+                            <constraint firstAttribute="height" constant="50" id="QUI-mB-Qj0"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gDQ-KB-2Ir">
+                        <rect key="frame" x="0.0" y="80" width="140" height="20"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKW-7P-n73">
+                                <rect key="frame" x="0.0" y="0.0" width="140" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="sKW-7P-n73" firstAttribute="top" secondItem="gDQ-KB-2Ir" secondAttribute="top" id="490-Qc-vsE"/>
+                            <constraint firstAttribute="trailing" secondItem="sKW-7P-n73" secondAttribute="trailing" id="7o9-ia-9gM"/>
+                            <constraint firstAttribute="height" constant="20" id="FfS-wc-cyo"/>
+                            <constraint firstAttribute="bottom" secondItem="sKW-7P-n73" secondAttribute="bottom" id="jQj-Bn-osz"/>
+                            <constraint firstItem="sKW-7P-n73" firstAttribute="leading" secondItem="gDQ-KB-2Ir" secondAttribute="leading" id="pCn-lM-EJw"/>
+                        </constraints>
+                    </view>
+                </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="aGl-zx-Rna" secondAttribute="trailing" id="0xD-qa-SHe"/>
+                <constraint firstAttribute="trailing" secondItem="gDQ-KB-2Ir" secondAttribute="trailing" id="1VM-vO-hg9"/>
+                <constraint firstAttribute="bottom" secondItem="gDQ-KB-2Ir" secondAttribute="bottom" id="6KB-D9-0gZ"/>
+                <constraint firstItem="ztE-T5-XVI" firstAttribute="centerX" secondItem="aGl-zx-Rna" secondAttribute="centerX" id="6nB-iL-aVU"/>
+                <constraint firstItem="aGl-zx-Rna" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="QSX-Mn-LvY"/>
+                <constraint firstItem="ztE-T5-XVI" firstAttribute="centerY" secondItem="aGl-zx-Rna" secondAttribute="centerY" id="klW-aD-P9r"/>
+                <constraint firstAttribute="bottom" secondItem="aGl-zx-Rna" secondAttribute="bottom" id="n5V-ST-Ipi"/>
+                <constraint firstItem="gDQ-KB-2Ir" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="tXu-8Y-EOs"/>
+                <constraint firstItem="aGl-zx-Rna" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="y8G-T1-6z1"/>
+            </constraints>
+            <size key="customSize" width="136" height="91"/>
+            <connections>
+                <outlet property="ImageView" destination="aGl-zx-Rna" id="AMF-Q9-jg8"/>
+                <outlet property="titleLabel" destination="sKW-7P-n73" id="K1T-T1-LEi"/>
+                <outlet property="translucentView" destination="gDQ-KB-2Ir" id="qEF-xy-nWh"/>
+            </connections>
+            <point key="canvasLocation" x="178" y="-30"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="play" width="100" height="100"/>
+    </resources>
 </document>
