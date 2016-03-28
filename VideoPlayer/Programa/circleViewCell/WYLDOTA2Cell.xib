@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15A2301" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WYLDOTA2Cell">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="90"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3PI-uV-Nyw" userLabel="heroImage">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="90"/>
+                    </imageView>
+                    <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="39h-q2-Hhx">
+                        <rect key="frame" x="0.0" y="66" width="80" height="24"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHu-pg-eUW">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XHu-pg-eUW" firstAttribute="top" secondItem="39h-q2-Hhx" secondAttribute="top" id="PGp-UV-1fN"/>
+                            <constraint firstAttribute="height" constant="24" id="Rfh-RP-yz5"/>
+                            <constraint firstAttribute="bottom" secondItem="XHu-pg-eUW" secondAttribute="bottom" id="kcZ-EO-Pz5"/>
+                            <constraint firstAttribute="trailing" secondItem="XHu-pg-eUW" secondAttribute="trailing" id="uef-a7-Y3D"/>
+                            <constraint firstItem="XHu-pg-eUW" firstAttribute="leading" secondItem="39h-q2-Hhx" secondAttribute="leading" id="vrK-5R-mgv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="39h-q2-Hhx" secondAttribute="bottom" id="39a-v7-e5r"/>
+                <constraint firstItem="3PI-uV-Nyw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="CeS-Si-SzM"/>
+                <constraint firstAttribute="trailing" secondItem="39h-q2-Hhx" secondAttribute="trailing" id="EjR-Ws-kAZ"/>
+                <constraint firstAttribute="bottom" secondItem="3PI-uV-Nyw" secondAttribute="bottom" id="UQO-oA-Mn3"/>
+                <constraint firstAttribute="trailing" secondItem="3PI-uV-Nyw" secondAttribute="trailing" id="da2-wg-xDZ"/>
+                <constraint firstItem="3PI-uV-Nyw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ePP-A2-e1q"/>
+                <constraint firstItem="39h-q2-Hhx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ovE-c6-aaV"/>
+            </constraints>
+            <size key="customSize" width="92" height="106"/>
+            <connections>
+                <outlet property="heroImageView" destination="3PI-uV-Nyw" id="mPq-hv-aeu"/>
+                <outlet property="nameLabel" destination="XHu-pg-eUW" id="eMQ-9a-BIG"/>
+            </connections>
+            <point key="canvasLocation" x="265" y="288"/>
+        </collectionViewCell>
+    </objects>
+</document>
